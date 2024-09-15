@@ -1,5 +1,5 @@
 function main(){
-	console.log("place holder saja")
+	console.log("testing")
 }
 
 main()
