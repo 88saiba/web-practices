@@ -6,3 +6,4 @@ class HelloWorld:
 
 # The data is passed to the print_message method
 HelloWorld.print_message("Engine Started")
+HelloWorld.print_message("Engine Started")
