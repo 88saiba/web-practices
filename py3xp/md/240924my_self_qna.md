@@ -1,4 +1,4 @@
-Q1: jelaskan dan berikan analogi dengan jelas seperti anda menjelaskan kepada orang awam dan sertakan contoh kodenya juga dari masing masing tipe data di python?
+Q1: jelaskan dan berikan analogi dengan jelas seperti anda menjelaskan kepada orang awam dan sertakan contoh kodenya juga dari masing masing tipe data di python?<br>
 A1: Tentu! Mari kita bahas beberapa tipe data di Python dengan analogi yang mudah dimengerti dan contoh kodenya.
 
 ### 1. **Integer (Bilangan Bulat)**
@@ -66,7 +66,7 @@ unique_numbers = {1, 2, 3, 2}  # Ini adalah set
 ```
 
 <hr>
-Q2: bukannya ada enum dan yg lain sebagainya? atau itu tidak termasuk ke dalam tipe data?
+Q2: bukannya ada enum dan yg lain sebagainya? atau itu tidak termasuk ke dalam tipe data?<br>
 A2: Benar! Ada tipe data lainnya di Python, termasuk `enum`. Mari kita bahas beberapa di antaranya:
 
 ### 9. **Enum (Enumerasi)**
@@ -152,7 +152,7 @@ result = greet()  # Ini adalah callable
 ```
 
 <hr>
-Q3: Jelaskan perbedaan byte dan bytearray
+Q3: Jelaskan perbedaan byte dan bytearray?<br>
 A3: **Byte** dan **bytearray** keduanya digunakan untuk menyimpan data biner, tetapi ada perbedaan utama antara keduanya:
 
 1. **Byte**: Ini adalah tipe data yang tidak dapat diubah (immutable). Setelah Anda membuat objek byte, Anda tidak bisa mengubah nilai di dalamnya.
@@ -173,7 +173,7 @@ A3: **Byte** dan **bytearray** keduanya digunakan untuk menyimpan data biner, te
 Jadi, intinya adalah `bytes` tidak bisa diubah setelah diciptakan, sementara `bytearray` bisa diubah.
 
 <hr>
-Q4: Jelaskan lebih terperinci terkait Callable
+Q4: Jelaskan lebih terperinci terkait Callable<br>
 A4: **Callable** adalah objek di Python yang dapat dipanggil seperti fungsi. Ini termasuk fungsi biasa, metode, dan objek yang memiliki metode `__call__`. Berikut adalah penjelasan lebih terperinci:
 
 ### Karakteristik:
@@ -221,7 +221,7 @@ A4: **Callable** adalah objek di Python yang dapat dipanggil seperti fungsi. Ini
 Callable memungkinkan berbagai cara untuk mengeksekusi kode, baik itu melalui fungsi, metode, atau objek khusus yang mendukung pemanggilan.
 
 <hr>
-Q5: Jelaskan dan berikan analogi dengan jelas seperti anda menjelaskan kepada orang awam dan sertakan contoh kodenya juga dari OOP pada python
+Q5: Jelaskan dan berikan analogi dengan jelas seperti anda menjelaskan kepada orang awam dan sertakan contoh kodenya juga dari OOP pada python<br>
 A5: Tentu! Mari kita bahas Pemrograman Berorientasi Objek (OOP) di Python dengan analogi yang mudah dimengerti dan contoh kodenya.
 
 ### Apa itu OOP?
@@ -310,8 +310,8 @@ A1: Parameter `self` digunakan dalam metode kelas di Python untuk merujuk pada i
 Misalnya, dalam metode `create_user`, `self.users` merujuk pada daftar pengguna milik instance `UserCRUD` yang sedang diakses.
 
 <hr>
-Q2: maksud dari instance object itu apa?
-A2: Instance object adalah objek yang dibuat dari kelas. Ketika kamu mendefinisikan sebuah kelas, kamu membuat cetakan (blueprint) untuk objek tersebut. Ketika kamu membuat objek nyata dari kelas itu, itulah yang disebut sebagai instance.
+Q6: maksud dari instance object itu apa?<br>
+A6: Instance object adalah objek yang dibuat dari kelas. Ketika kamu mendefinisikan sebuah kelas, kamu membuat cetakan (blueprint) untuk objek tersebut. Ketika kamu membuat objek nyata dari kelas itu, itulah yang disebut sebagai instance.
 
 Contohnya:
 
@@ -321,8 +321,8 @@ Contohnya:
 Setiap instance dapat memiliki nilai dan status yang berbeda meskipun mereka berbagi struktur yang sama dari kelas yang sama
 
 <hr>
-Q3: analogi class itu apakah sama dengan mesin molding?
-A3: Ya, analogi kelas dengan mesin molding sangat tepat!
+Q7: analogi class itu apakah sama dengan mesin molding?<br>
+A7: Ya, analogi kelas dengan mesin molding sangat tepat!
 
 1. **Kelas (Blueprint):** Kelas adalah cetakan atau blueprint yang mendeskripsikan bagaimana objek seharusnya terlihat dan berperilaku. Seperti mesin molding yang mendesain bentuk cetakan.
 
@@ -331,8 +331,8 @@ A3: Ya, analogi kelas dengan mesin molding sangat tepat!
 Dengan demikian, kelas mendefinisikan sifat dan perilaku, sementara instance adalah objek nyata yang dihasilkan berdasarkan definisi tersebut.
 
 <hr>
-Q4: bisa tunjukan dalam kode tersebut mana argumen mana parameter mana statement mana expression
-A4: Tentu! Berikut adalah penjelasan tentang argumen, parameter, statement, dan expression dalam kode CRUD yang telah diberikan:
+Q8: bisa tunjukan dalam kode tersebut mana argumen mana parameter mana statement mana expression<br>
+A8: Tentu! Berikut adalah penjelasan tentang argumen, parameter, statement, dan expression dalam kode CRUD yang telah diberikan:
 
 ```python
 from enum import Enum
@@ -384,8 +384,8 @@ crud.read_users()                              # Statement: Calling read_users m
 - **Expression:** Bagian kode yang menghasilkan nilai, seperti saat membuat objek atau mengevaluasi kondisi (contoh: `User(username, status)`).
 
 <hr>
-Q5: ada format file teks tapi dia ada highlightnya, mungkin untuk dokumentasi python program?
-A5: reStructuredText (reST): Digunakan di dokumentasi Python, dengan sintaks untuk penekanan, File reStructuredText (reST) biasanya menggunakan ekstensi `.rst`. Contohnya, jika kamu membuat file bernama `dokumen.rst`, itu akan menjadi file reST.
+Q9: ada format file teks tapi dia ada highlightnya, mungkin untuk dokumentasi python program?<br>
+A9: reStructuredText (reST): Digunakan di dokumentasi Python, dengan sintaks untuk penekanan, File reStructuredText (reST) biasanya menggunakan ekstensi `.rst`. Contohnya, jika kamu membuat file bernama `dokumen.rst`, itu akan menjadi file reST.
 
 
 
