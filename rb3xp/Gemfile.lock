@@ -1,0 +1,16 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    colorama (0.1.2)
+      rmagick (~> 4.2.0)
+    rmagick (4.2.6)
+
+PLATFORMS
+  ruby
+  x86_64-linux
+
+DEPENDENCIES
+  colorama
+
+BUNDLED WITH
+   2.5.16
