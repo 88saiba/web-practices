@@ -1,3 +1,6 @@
+# Language Practice
+* Self-learning with the help of AI
+
 # web-practices
 * Web development learning and practice with freeCodeCamp<br>
 * Learning Python Programming language with Think Python<br>
