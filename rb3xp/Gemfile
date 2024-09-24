@@ -1,3 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'colorama'
+gem 'rbs'
+gem 'solargraph'
+gem 'ruby-lsp'
+gem 'rufo'
