@@ -1,8 +1,8 @@
 #!/usr/bin/env perl
-
 use strict;
 use warnings;
 
+# di bawah ini terkait referensi
 my $bandung = "kota";
 my $jakarta = "ibukota";  
 my $surabaya = "pelabuhan"; 
