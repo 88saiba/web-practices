@@ -62,6 +62,7 @@ def main():
             check_services()
         elif choice == '4':
             print("Exiting the program.")
+            os.system('clear')
             break
         else:
             print("Invalid choice. Please try again.")
