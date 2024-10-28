@@ -1,4 +1,5 @@
 import os
+import time
 
 def run_command(command):
     """Run a command in the terminal."""
@@ -30,6 +31,16 @@ def stop_services():
     run_command("sudo systemctl status nginx")
     print("---------------------------------")
     run_command("sudo systemctl status mysql.service")
+
+def check_services():
+    """Check Nginx and MySQL."""
+    print("Checking The Nginx and MySQL...")
+    time.sleep(2)
+    print("---------------------------------")
+    run_command("sudo systemctl status nginx")
+    time.sleep(1)
+    print("---------------------------------")
+    run_command("sudo systemctl status mysql.service")
     
 
 def main():
@@ -38,15 +49,18 @@ def main():
         print("\nMenu:")
         print("1. Turn Engine On")
         print("2. Turn Engine Off")
-        print("3. Bail Out")
+        print("3. Check Engine")
+        print("4. Bail Out")
         
-        choice = input("Choose an option (1/2/3): ")
+        choice = input("Choose an option (1/2/3/4): ")
         
         if choice == '1':
             start_services()
         elif choice == '2':
             stop_services()
         elif choice == '3':
+            check_services()
+        elif choice == '4':
             print("Exiting the program.")
             break
         else:
