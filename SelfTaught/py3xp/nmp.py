@@ -6,7 +6,7 @@ def run_command(command):
 
 def start_services():
     """Start Nginx and MySQL."""
-    print("Starting Nginx and MySQL...")
+    print("Starting The Nginx with MySQL...")
     run_command("sudo systemctl enable nginx")
     run_command("sudo systemctl start nginx")
     run_command("sudo systemctl status nginx")
@@ -17,7 +17,7 @@ def start_services():
 
 def stop_services():
     """Stop Nginx and MySQL."""
-    print("Stopping Nginx and MySQL...")
+    print("Stopping The Nginx and MySQL...")
     run_command("sudo systemctl stop mysql.service")
     run_command("sudo systemctl disable mysql.service")
     run_command("sudo systemctl status mysql.service")
@@ -30,9 +30,9 @@ def main():
     """Main menu of the program."""
     while True:
         print("\nMenu:")
-        print("1. Engined NMP-Envs")
-        print("2. Stop NMP-Envs")
-        print("3. Exit")
+        print("1. Turn Engine On")
+        print("2. Turn Engine On")
+        print("3. Bail Out")
         
         choice = input("Choose an option (1/2/3): ")
         
