@@ -95,8 +95,8 @@ def main():
     while True:
         os.system('clear')
         print("+===========+")
-        print("  EMP-Menu")
         print("[Nginx Mysql Php]")
+        print("  EMP-Menu")
         print("+===========+")
         print("1. Turn On Engine")
         print("2. Turn Off Engine")
