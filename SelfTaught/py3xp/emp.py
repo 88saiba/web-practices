@@ -78,7 +78,6 @@ def check_services():
     time.sleep(1.7)
     print("---------------------------------")
     run_command("sudo systemctl status nginx")
-    time.sleep(0.8)
     print("---------------------------------")
     run_command("sudo systemctl status mysql.service")
     
