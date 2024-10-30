@@ -58,3 +58,4 @@ crud.read
 crud.delete("Item 2")
 puts "\nAfter deletion:"
 crud.read
+# test komen
