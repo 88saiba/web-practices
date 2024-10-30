@@ -60,3 +60,27 @@ end
 example("Hello", 123, [1, 2, 3])  # Memasukkan string, number, dan array sebagai argumen
 
 #  Parameter adalah **penanda sementara** yang akan diisi dengan nilai nyata saat fungsi dipanggil.
+
+# Berikut adalah contoh kode lain dalam Ruby:
+
+def run_command(a, b)
+  puts "Tipe data dari a: #{a.class}"   # Menampilkan tipe data dari a
+  puts "Tipe data dari b: #{b.class}"   # Menampilkan tipe data dari b
+  result = a + b                        # Mendeklarasikan result sebagai variabel lokal
+  puts "Hasil dari a + b: #{result}"    # Menampilkan hasil dari a + b
+  return result                         # Mengembalikan nilai result
+end
+
+def lanjutan(a)
+  result = run_command(a, 10)           # Memanggil run_command dengan dua argumen
+  final_result = result + 100
+  return final_result
+end
+
+puts "Hasil dari lanjutan: #{lanjutan(12)}"
+
+
+# Penjelasan singkat:
+# - Pada fungsi `run_command`, `result` dikembalikan dengan `return result`.
+# - Fungsi `lanjutan` memanggil `run_command` dengan dua argumen dan menyimpan hasilnya dalam `result`.
+# - Nilai `result + 100` disimpan di `final_result` dan dikembalikan sebagai hasil dari `lanjutan`.
