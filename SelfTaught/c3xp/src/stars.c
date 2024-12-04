@@ -5,7 +5,7 @@
 #define WIDTH 50
 #define HEIGHT 20
 
-// Fungsi untuk menginisialisasi warna api
+// Fungsi untuk menginisialisasi warna bintang
 void init_colors() {
     start_color();
     init_pair(1, COLOR_BLUE, COLOR_BLACK);   // Biru
@@ -15,7 +15,7 @@ void init_colors() {
     init_pair(5, COLOR_WHITE, COLOR_BLACK);  // Putih
 }
 
-// Fungsi untuk membuat api dengan warna acak
+// Fungsi untuk membuat bintang dengan warna acak
 void draw_flame() {
     for (int y = 0; y < HEIGHT; y++) {
         for (int x = 0; x < WIDTH; x++) {
