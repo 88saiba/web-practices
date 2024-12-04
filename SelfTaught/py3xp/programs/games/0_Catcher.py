@@ -14,8 +14,8 @@ w.timeout(100)
 catcher = '^'
 catcher_pos = [sh//2, sw//2]
 direction = curses.KEY_RIGHT
-food = '0'  # Makanan yang benar sekarang angka 0
-wrong_item = 'O'  # Item salah menggunakan O besar
+food = '0'  # Food yang benar
+wrong_item = 'O'  # Wrong Food menggunakan O besar
 food_pos = [random.randint(1, sh-2), random.randint(1, sw-2)]
 wrong_item_pos = [random.randint(1, sh-2), random.randint(1, sw-2)]
 
