@@ -1,2 +1,2 @@
 # Language Practice
-* Self-learning with the help of AI
+* Self-learning with the help of AI to understand
