@@ -119,7 +119,7 @@ int main() {
         if (choice == 3) {
             clearScreen();
             cout << "Thank you, exit the program.\n";
-            std::this_thread::sleep_for(std::chrono::seconds(2));
+            this_thread::sleep_for(chrono::seconds(2));
             clearScreen();
             break;
         }
